@@ -13,7 +13,7 @@ Nach der Installation:
 1. Gerät ausschalten  
 2. SD-Karte entnehmen  
 3. In PC stecken  
-4. OSCAR importiert automatisch
+4. in OSCAR importieren
 
 ## 3. CSV aus OSCAR exportieren
 OSCAR → Daten → Export → CSV  
@@ -32,12 +32,12 @@ Output:
 `oscar_import_sleep_ahi_6m.tsv`
 
 ## 5. Import Statistics (HACS)
-1. HACS öffnen  
-2. „Import Statistics“ suchen  
-3. Installieren & neu starten
+1. GITHUB   
+2. „Import Statistics“ suchen 
+3. In HomeAssistant installieren & neu starten
 
 ## 6. Home Assistant Template-Sensoren
-In deiner `cpap.yaml`:
+In deinem `cpap.yaml` package (Erstellen der Sensoren und Vorbelegen mit 0, Werte werden über import nachgespielt)
 ```
 template:
   - sensor:
