@@ -1,0 +1,22 @@
+##############################
+#   CPAP / OSCAR PACKAGE     #
+##############################
+
+template:
+  - sensor:
+
+      # Platzhalter für importierte Schlafdauer (TSV via Import Statistics)
+      - name: "Sleep Total Time"
+        unique_id: sleep_total_time
+        unit_of_measurement: "h"
+        device_class: duration
+        state_class: measurement
+        state: 0
+
+      # Platzhalter für importierte AHI-Werte (TSV via Import Statistics)
+      - name: "Sleep AHI"
+        unique_id: sleep_ahi
+        unit_of_measurement: "events/h"
+        state_class: measurement
+        state: 0
+
